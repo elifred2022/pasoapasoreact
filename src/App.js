@@ -6,8 +6,10 @@ import Profileprops from "./Props";
 export default function App() {
   return (
     <div>
+      <h2>primeros pasos</h2>
       <Gallery />
       <Profile />
+      <h2>de aqui props</h2>
       <Profileprops />
     </div>
   );
