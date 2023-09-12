@@ -8,7 +8,7 @@ export default function Profileprops() {
   return (
     <Card>
       <Avatar
-        size={400}
+        size={100}
         person={{ name: "Katsuko Saruhashi", imageId: "YfeOqp2" }}
       />
     </Card>

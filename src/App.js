@@ -2,6 +2,7 @@
 import Gallery from "./Importexport";
 import { Profile } from "./Importexport";
 import Profileprops from "./Props";
+import PackingList from "./Renderizado";
 
 export default function App() {
   return (
@@ -11,8 +12,10 @@ export default function App() {
       <Profile />
       <h2>de aqui props</h2>
       <Profileprops />
+      <h2>Randerizado</h2>
+      <PackingList />
     </div>
   );
 }
 
-// https://es.react.dev/learn/importing-and-exporting-components Las props te permiten considerar
+// https://es.react.dev/learn/rendering-lists rendirizado de listas
